@@ -1,0 +1,2 @@
+form{display:flex;flex-direction:column;font-family:sans-serif}form p{font-size:15px}form label{margin-top:20px;font-size:15px;color:#9D8189}form input{padding:10px 5px;font-size:17px;border:none;border-bottom:solid 1px #9D8189}form input:focus{outline:none}form button{margin:20px 0}
+
