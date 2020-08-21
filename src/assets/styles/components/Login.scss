@@ -1,0 +1,30 @@
+
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+
+    p {
+        font-size: 15px;
+      }
+      label {
+        margin-top: 20px;
+        font-size: 15px;
+        color: #9D8189;
+      }
+      input {
+        padding: 10px 5px;
+        font-size: 17px;
+        border: none;
+        border-bottom: solid 1px #9D8189;
+      }
+      input:focus {
+        outline: none;
+      }
+      button {
+         margin: 20px 0;
+      }
+  }
+  
+  
+
