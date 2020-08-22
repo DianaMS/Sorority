@@ -4,6 +4,7 @@ import Signup from '../containers/Signup';
 import Login from '../containers/Login';
 import Welcome from '../containers/Welcome';
 import Home from '../containers/Home';
+import '../assets/styles/App.scss';
 
 const App = () => (
   <BrowserRouter>
