@@ -7,6 +7,7 @@ import Home from '../containers/Home';
 import Chat from '../containers/Chat';
 import Community from '../containers/Community';
 import Specialists from '../containers/Specialists';
+import Profile from '../containers/Profile';
 import '../assets/styles/App.scss';
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
     <Route exact path='/' component={Welcome} />
     <Route exact path='/signup' component={Signup} />
     <Route exact path='/login' component={Login} />
+    <Route exact path='/profile' component={Profile} />
     <Route exact path='/home' component={Home} />
     <Route exact path='/chat' component={Chat} />
     <Route exact path='/community' component={Community} />
