@@ -2,13 +2,14 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 import ButtonRegister from '../components/ButtonRegister';
 import '../assets/styles/components/Signup.scss';
 
-const Signup = () => (
+const Profile = () => (
   <>
     <div className='contenedor_titles'>
       <div className='icon'>
@@ -18,20 +19,20 @@ const Signup = () => (
     </div>
     <div className='contenedor'>
       <form>
-        <label htmlFor='email'>Correo</label>
-        <input id='email' type='email' />
-        <label htmlFor='password'>Contraseña</label>
-        <input id='password' type='password' />
-        <label htmlFor='confirm-password'>Confirmar contraseña</label>
-        <input id='confirm-password' type='password' />
+        <label htmlFor='name'>¿Cómo te llamas?</label>
+        <input id='name' type='name' />
+        <label htmlFor='age'>¿Cuál es tu edad?</label>
+        <label htmlFor='pregnant'>¿Estás embarazada?</label>
+        <label htmlFor='pregnant'>¿Cuál fue tu última menstruación?</label>
+        <label htmlFor='pregnant'>¿Tienes hijos?</label>
       </form>
     </div>
     <div className='contenedor_botones'>
-      <Link to='/profile' style={{ textDecoration: 'none' }}>
-        <ButtonRegister namebutton='Continuar' />
+      <Link to='/home' style={{ textDecoration: 'none' }}>
+        <ButtonRegister namebutton='Registrate' />
       </Link>
     </div>
   </>
 );
 
-export default Signup;
+export default Profile;
