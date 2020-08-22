@@ -12,15 +12,15 @@ const Welcome = () => (
       <div className='images-container'>
         <AwesomeSlider animation='cubeAnimation'>
           <div className='doula-images'>
-            <img src='src/assets/images/doula2.png' alt='img' />
+            <img src='src/assets/static/doula2.png' alt='img' />
             <p>El embarazo es una etapa muy especial en la vida de las mujeres y queremos que lo disfrutes</p>
           </div>
           <div className='doula-images'>
-            <img src='src/assets/images/doula1.png' alt='img' />
+            <img src='src/assets/static/doula1.png' alt='img' />
             <p>Únete a nuestra red de madres experimentadas, un espacio seguro y sororo</p>
           </div>
           <div className='doula-images'>
-            <img src='src/assets/images/doula3.png' alt='img' />
+            <img src='src/assets/static/doula3.png' alt='img' />
             <p>Donde podras responder dudas y compartir tus experiencias y recomendaciones</p>
           </div>
         </AwesomeSlider>
