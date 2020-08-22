@@ -4,6 +4,9 @@ import Signup from '../containers/Signup';
 import Login from '../containers/Login';
 import Welcome from '../containers/Welcome';
 import Home from '../containers/Home';
+import Chat from '../containers/Chat';
+import Community from '../containers/Community';
+import Specialists from '../containers/Specialists';
 import '../assets/styles/App.scss';
 
 const App = () => (
@@ -12,6 +15,9 @@ const App = () => (
     <Route exact path='/signup' component={Signup} />
     <Route exact path='/login' component={Login} />
     <Route exact path='/home' component={Home} />
+    <Route exact path='/chat' component={Chat} />
+    <Route exact path='/community' component={Community} />
+    <Route exact path='/specialists' component={Specialists} />
   </BrowserRouter>
 );
 

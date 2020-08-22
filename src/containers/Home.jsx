@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavigatorNav from '../components/NavigatorNav';
 import backgroundProfile from '../assets/static/backgroundProfile.png';
 import perfil from '../assets/static/Mask-Perfil.png';
@@ -14,7 +15,9 @@ const Home = () => (
       <section className='content-info'>
         <div className='container-cover'>
           <img src={backgroundProfile} alt='background-profile' className='background-profile' />
-          <button type='submit'>Salir</button>
+          <Link to='/login'>
+            <button type='button'>Salir</button>
+          </Link>
           <img src={perfil} alt='' className='perfil' />
         </div>
         <div className='container-biography'>
