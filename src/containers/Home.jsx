@@ -15,7 +15,7 @@ const Home = () => (
       <section className='content-info'>
         <div className='container-cover'>
           <img src={backgroundProfile} alt='background-profile' className='background-profile' />
-          <Link to='/login'>
+          <Link to='/'>
             <button type='button'>Salir</button>
           </Link>
           <img src={perfil} alt='' className='perfil' />

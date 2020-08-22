@@ -1,67 +1,81 @@
-.images-container {
-  margin-top: 20px;
-  div {
-    min-width: 100vw;
-    height: 410px;
-    background: none;
-    display: flex;
-    flex-direction: column;
-    min-width: 100vw;
-    align-items: center;
-    p {
-      margin-top: 23px;
-      margin-bottom: 0;
-      width: 80%;
-      text-align: center;
-      font-size: 18px;
-      color: #AF6850;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    img {
-      width: 231px;
-      height: 315px;
-    }
-  }
-}
-.options {
-  margin-top: 70px;
-  height: 120px;
+
+.welcome-container{
   width: 100%;
+  height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   flex-direction: column;
-  .buttonLogin {
-    border-color:#AF6850;
-    color:#AF6850;
-    background-color: white;
-    width: 200px;
-    height: 45px;
-    font-family: sans-serif;
-    border-radius: 15px;
-    outline: none;
-    }
-}
-  .awssld__bullets button {
-    height: 12px !important;
-    width: 12px !important;
-    background: #AF6850!important;
-  }
-  .awssld__bullets .awssld__bullets--active {
-    background-color: #FC94A4 !important;
-  }
-.awssld__bullets {
-    bottom: -34px !important;
-}
-@media (min-width: 818px) and (max-width: 1000px) {
+  justify-content: center;
+  align-items: center;
   .images-container {
-    margin-top: 50px;
+    margin-top: 20px;
     div {
-  p {
-    width: 50%;
+      min-width: 100vw;
+      height: 410px;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      min-width: 100vw;
+      align-items: center;
+      p {
+        margin-top: 23px;
+        margin-bottom: 0;
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+        color: #AF6850;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      img {
+        width: 231px;
+        height: 315px;
+      }
+    }
   }
-}}
+  .options {
+    margin-top: 70px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    .buttonLogin {
+      background-color:  white;
+  color: #AF6850;
+  width: 200px;
+  height: 45px;
+  font-family: sans-serif;
+  border-radius: 30px;
+  border-color: #AF6850;
+  outline: none;
+  text-transform: uppercase;
+  width: 200px;
+  height: 45px;
+      }
+  }
+    .awssld__bullets button {
+      height: 12px !important;
+      width: 12px !important;
+      background: #AF6850!important;
+    }
+    .awssld__bullets .awssld__bullets--active {
+      background-color: #FC94A4 !important;
+    }
+  .awssld__bullets {
+      bottom: -34px !important;
+  }
+  @media (min-width: 818px) and (max-width: 1000px) {
+    .images-container {
+      margin-top: 50px;
+      div {
+    p {
+      width: 50%;
+    }
+  }}
+  }
+
 }
+
 @media (min-width: 1000px) and (max-width: 2000px) {
   .images-container {
     margin-top: 35px;
