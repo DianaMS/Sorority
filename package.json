@@ -22,6 +22,7 @@
   "homepage": "https://github.com/DianaMS/Sorority#readme",
   "dependencies": {
     "react": "^16.13.1",
+    "react-awesome-slider": "^4.1.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
   },
