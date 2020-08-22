@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavigatorNav from '../components/NavigatorNav';
-import backgroundProfile from '../assets/static/backgroundProfile.png';
-import perfil from '../assets/static/Mask-Perfil.png';
-import buttonBreathe from '../assets/static/buttonBreathe.png';
-import buttonDiary from '../assets/static/buttonDiary.png';
-import buttonContractions from '../assets/static/buttonContractions.png';
-import buttonCaution from '../assets/static/cautionbutton.png';
-import '../assets/styles/components/Home.scss';
+import backgroundProfile from '../../public/assets/static/backgroundProfile.png';
+import perfil from '../../public/assets/static/Mask-Perfil.png';
+import buttonBreathe from '../../public/assets/static/buttonBreathe.png';
+import buttonDiary from '../../public/assets/static/buttonDiary.png';
+import buttonContractions from '../../public/assets/static/buttonContractions.png';
+import buttonCaution from '../../public/assets/static/cautionbutton.png';
+import '../../public/assets/styles/components/Home.scss';
 
 const Home = () => (
   <>

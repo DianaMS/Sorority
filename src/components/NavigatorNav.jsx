@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import user from '../assets/static/001-user.png';
-import care from '../assets/static/002-care.png';
-import medical from '../assets/static/003-medical-doctor-specialist 1.png';
-import group from '../assets/static/004-group.png';
-import '../assets/styles/components/NavigatorNav.scss';
+import user from '../../public/assets/static/001-user.png';
+import care from '../../public/assets/static/002-care.png';
+import medical from '../../public/assets/static/003-medical-doctor-specialist 1.png';
+import group from '../../public/assets/static/004-group.png';
+import '../../public/assets/styles/components/NavigatorNav.scss';
 
 const NavigatorNav = () => (
   <>

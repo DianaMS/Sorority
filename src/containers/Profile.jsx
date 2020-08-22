@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
 import ButtonRegister from '../components/ButtonRegister';
-import '../assets/styles/components/Profile.scss';
+import '../../public/assets/styles/components/Profile.scss';
 
 const Profile = () => (
   <>
