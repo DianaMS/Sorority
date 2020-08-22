@@ -6,7 +6,11 @@ Sorority es un proyecto que nace con el propósito de reivindicar la maternidad 
 
 ![AltaFidelidad](./assets/versionMobile.gif)
 
-<!-- ### Version Desktop
 
-![AltaFidelidad](./assets/mockupdesktop.gif) -->
+***
+
+
+### Version Desktop
+
+![AltaFidelidad](./assets/versionDesktop.gif)
 
