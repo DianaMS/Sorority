@@ -2,15 +2,19 @@
     background: #FAE9E2;
     width: 100%;
     height: 100vh;
-}
+    margin: 0;
 
-.contenedorWindowChat{
-    margin: 40px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .container-info{
+        .contenedorWindowChat{
+            margin: 40px 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .link-nav {
+                text-decoration: none;
+            }
+        }
+    }
 
-.link-nav {
-    text-decoration: none;
+
 }

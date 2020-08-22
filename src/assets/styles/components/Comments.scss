@@ -1,0 +1,49 @@
+.container-comments{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    .column-img{
+        width: auto;
+        height: auto;
+        img{
+         
+            width: 50px;
+            height: 50px;
+        }  
+    }
+
+    .column-text{
+        width: 255px;
+        height: auto;
+        border-radius: 15px;
+        background: rgba(216, 226, 220, 0.3);
+        display: flex;
+        flex-direction: column;
+        .nameComment{
+
+                font-size: 15px;
+                color: #6B414D;
+                margin: 10px 0 0 10px;
+
+        }
+        .timeComment{
+
+                font-size: 11px;
+                color: #6B414D;
+                margin: 0px 0 0 10px;
+
+        }
+        .textComment{
+            font-size: 15px;
+            color: #9D8189;
+            margin: 10px 10px 20px 10px;
+
+        }
+    }
+
+}

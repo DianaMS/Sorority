@@ -1,0 +1,82 @@
+.card {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+  min-height: 100px;
+  width: 90%;
+  height: auto;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  .card-content, .extra-info {
+    width: 100%;
+    // border: solid red;
+    height: auto;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    div {
+      width: 230px;
+      // border: solid red;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      p {
+        margin: 0;
+        color:  #6B414D;
+        font-size: 15px;
+        font-family: sans-serif;
+      }
+      .occupation{
+        margin: 5px 0;
+        font-size: 13px;
+      }
+      p:last-child {
+        color: #9D8189;
+      }
+    }
+    img {
+      border-radius: 50%;
+      background-color: black;
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .extra-info {
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    div:first-child {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      p {
+        color: #9D8189;
+        font-size: 11px;
+      }
+      img {
+        margin: 0 5px;
+        width: 18px;
+        height: 15px;
+      }
+    }
+    div:last-child {
+      img {
+        margin: 0 1px;
+    }
+  }
+  }
+}
+@media (min-width: 450px) and (max-width: 2000px) {
+  .card {
+    width: 430px;
+  }
+}

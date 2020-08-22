@@ -6,7 +6,7 @@ import perfil from '../assets/static/Mask-Perfil.png';
 import buttonBreathe from '../assets/static/buttonBreathe.png';
 import buttonDiary from '../assets/static/buttonDiary.png';
 import buttonContractions from '../assets/static/buttonContractions.png';
-import buttonMusic from '../assets/static/buttonMusic.png';
+import buttonCaution from '../assets/static/cautionbutton.png';
 import '../assets/styles/components/Home.scss';
 
 const Home = () => (
@@ -44,8 +44,8 @@ const Home = () => (
               <p>Contracciones</p>
             </div>
             <div className='block'>
-              <img src={buttonMusic} alt='button-music' className='click' />
-              <p>Sonidos</p>
+              <img src={buttonCaution} alt='button-music' className='click' />
+              <p>Precaución</p>
             </div>
           </div>
         </div>
