@@ -49,5 +49,5 @@ select{margin:0 5px;border-radius:15px;padding:5px;color:#9D8189;border:2px soli
 
 .contenedor_answer{width:312px;height:50px;background:#FFF3F6;border-radius:15px;display:flex;align-items:center;justify-content:center;margin:auto;margin-bottom:20px}.contenedor_answer .placeholder_answer{color:#9D8189;font-style:normal;font-weight:normal;font-size:17px;line-height:20px}.contenedor_answer .send{margin:0 5px 0 50px;color:#9D8189;font-size:20px}
 
-*{margin:0;padding:0;font-family:'Roboto', sans-serif}
+*{margin:0;padding:0;font-family:'Roboto', sans-serif;outline:none}
 
