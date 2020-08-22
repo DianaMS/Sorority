@@ -8,6 +8,7 @@ import Chat from '../containers/Chat';
 import Community from '../containers/Community';
 import Specialists from '../containers/Specialists';
 import Profile from '../containers/Profile';
+import OneChat from '../containers/OneChat';
 import '../assets/styles/App.scss';
 
 const App = () => (
@@ -20,6 +21,7 @@ const App = () => (
     <Route exact path='/chat' component={Chat} />
     <Route exact path='/community' component={Community} />
     <Route exact path='/specialists' component={Specialists} />
+    <Route exact path='/onechat' component={OneChat} />
   </BrowserRouter>
 );
 

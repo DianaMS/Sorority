@@ -12,7 +12,9 @@ const Signup = () => (
   <>
     <div className='contenedor_titles'>
       <div className='icon'>
-        <FontAwesomeIcon className='back' icon={faAngleLeft} />
+        <Link to='/'>
+          <FontAwesomeIcon className='back' icon={faAngleLeft} />
+        </Link>
       </div>
       <p className='title'>Registrate</p>
     </div>
