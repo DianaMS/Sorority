@@ -1,0 +1,96 @@
+.container-publication{
+    width: 350px;
+    height: auto;
+    background: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    .container-header{
+        width: 100%;
+        height: auto;
+        // background: lightblue;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+    
+        .position-image{
+            width: auto;
+            height: auto;
+            img{
+                margin: 10px;
+                width: 50px;
+                height: 50px;
+            }
+            // background: yellowgreen;
+        }
+        .position-description{
+            display: flex;
+            flex-direction: column;
+            color: #6B414D;
+            // align-items: center;
+            // justify-content: flex-start;
+            .main-description{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .main-name{
+                    font-size: 15px;
+                    margin-right: 10px;   
+                    font-weight: 600;
+
+                }
+                .main-number{
+                    font-size: 13px;
+                    margin-right: 5px;
+                }
+            }
+            p{
+                font-size: 11px;
+            }
+        }
+    }
+
+    .think-content{
+        margin: 10px 10px 30px 10px;
+        font-size: 15px;
+        color: #9D8189;
+    }
+
+    .interaction{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        .likes{
+            display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        img{
+                margin-left: 5px;
+            }
+            p{
+                color: #9D8189;
+                font-size: 15px;
+            }
+
+        }
+        .comments{
+            width: auto;
+            height: auto;
+            // background:darkcyan;
+            display: flex;
+            flex-direction: row;
+            margin-right: 10px;
+            p{
+                color: #9D8189;
+                font-size: 15px;
+            }
+            img{
+                margin-left: 5px;
+            }
+     
+        }
+    }
+
+}
