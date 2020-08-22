@@ -1,0 +1,39 @@
+.contenedor_chat3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 350px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+}
+
+.data3 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.name3 {
+    font-size: 15px;
+    font-weight: 600;
+    color:#6B414D;
+    line-height: 18px;
+    margin: 0px 0 0 10px;
+  }
+
+.message3 {
+    font-size: 15px;
+    color:#9D8189;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0px 0 0 10px;
+  }
+
+.avatar3 {
+    width: 50px;
+    border-radius: 30px;
+    margin: 10px;
+  }

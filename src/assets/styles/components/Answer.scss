@@ -1,0 +1,23 @@
+.contenedor_answer{
+    width: 312px;
+    height: 50px;
+    background: #FFF3F6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.placeholder_answer{
+    color: #9D8189;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+}
+.send{
+    margin: 0 5px 0 50px;
+    color: #9D8189;
+    font-size: 20px;
+}

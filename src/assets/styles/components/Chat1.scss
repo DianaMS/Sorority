@@ -1,0 +1,38 @@
+.contenedor_chat1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.data1 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    background: #FFF3F6;
+    border-radius: 20px;
+}
+
+.name1 {
+    font-size: 15px;
+    font-weight: 600;
+    color:#6B414D;
+    line-height: 18px;
+    margin: 10px 0 5px 15px;
+  }
+
+.message1 {
+    font-size: 15px;
+    color:#9D8189;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0px 0 0 15px;
+  }
+
+.avatar1 {
+    width: 50px;
+    border-radius: 30px;
+    margin: 0 0 50px 0;
+  }
