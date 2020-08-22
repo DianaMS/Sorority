@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../assets/styles/components/OneChat.scss';
-import perfil from '../assets/static/Mask-Perfil.png';
-import doctora from '../assets/static/medica8.png';
+import '../../public/assets/styles/components/OneChat.scss';
+import perfil from '../../public/assets/static/Mask-Perfil.png';
+import doctora from '../../public/assets/static/medica8.png';
 import NavigatorNav from '../components/NavigatorNav';
 
 import HeadBack from '../components/HeadBack';

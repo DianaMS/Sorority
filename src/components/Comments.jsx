@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/Comments.scss';
+import '../../public/assets/styles/components/Comments.scss';
 
 const Comments = ({ img, name, timeComment, text }) => (
   <>

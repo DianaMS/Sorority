@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../assets/styles/components/Chat1B.scss';
+import '../../public/assets/styles/components/Chat1B.scss';
 
 const Chat1BB = ({ name1B, lastMessage1B, photoProfile1B }) => (
   <>
