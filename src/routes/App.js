@@ -9,7 +9,7 @@ import Community from '../containers/Community';
 import Specialists from '../containers/Specialists';
 import Profile from '../containers/Profile';
 import OneChat from '../containers/OneChat';
-import '../assets/styles/App.scss';
+import '../../public/assets/styles/App.scss';
 
 const App = () => (
   <BrowserRouter>

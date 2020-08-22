@@ -1,7 +1,7 @@
 import React from 'react';
-import profile from '../assets/static/Mask-Perfil.png';
-import send from '../assets/static/013-send.png';
-import '../assets/styles/components/ForComment.scss';
+import profile from '../../public/assets/static/Mask-Perfil.png';
+import send from '../../public/assets/static/013-send.png';
+import '../../public/assets/styles/components/ForComment.scss';
 
 const ForComment = () => (
   <>

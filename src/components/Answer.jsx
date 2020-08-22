@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../assets/styles/components/Answer.scss';
+import '../../public/assets/styles/components/Answer.scss';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';

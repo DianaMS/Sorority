@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/Card.scss';
+import '../../public/assets/styles/components/Card.scss';
 
 const Card = ({ user }) => (
   <div className='card'>
@@ -13,15 +13,15 @@ const Card = ({ user }) => (
     </div>
     <div className='extra-info'>
       <div>
-        <img src='src/assets/static/Group.png' alt='icon' />
+        <img src='../../public/assets/static/Group.png' alt='icon' />
         <p>Escribeme</p>
       </div>
       <div>
-        <img src='src/assets/static/Group2.png' alt='icon' />
-        <img src='src/assets/static/Group2.png' alt='icon' />
-        <img src='src/assets/static/Group2.png' alt='icon' />
-        <img src='src/assets/static/Group2.png' alt='icon' />
-        <img src='src/assets/static/Group2.png' alt='icon' />
+        <img src='../../public/assets/static/Group2.png' alt='icon' />
+        <img src='../../public/assets/static/Group2.png' alt='icon' />
+        <img src='../../public/assets/static/Group2.png' alt='icon' />
+        <img src='../../public/assets/static/Group2.png' alt='icon' />
+        <img src='../../public/assets/static/Group2.png' alt='icon' />
       </div>
     </div>
   </div>

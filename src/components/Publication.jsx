@@ -1,8 +1,8 @@
 import React from 'react';
-import heart from '../assets/static/009-heart.png';
-import comments from '../assets/static/010-comments.png';
-import group from '../assets/static/Group.png';
-import '../assets/styles/components/Publication.scss';
+import heart from '../../public/assets/static/009-heart.png';
+import comments from '../../public/assets/static/010-comments.png';
+import group from '../../public/assets/static/Group.png';
+import '../../public/assets/styles/components/Publication.scss';
 
 const Publication = ({ img, name, age, time, timePublication, text, likes, comment, children }) => (
   <>
