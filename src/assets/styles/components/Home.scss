@@ -1,0 +1,117 @@
+.container-home{
+    width: 100vw;
+    height: 100wh;
+    font-family: sans-serif;
+
+    .content-info{
+        width: 100%;
+        height: 760px;
+        // height: 590px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-content: center;
+        // background: chocolate;
+
+        .container-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // background: chartreuse;
+            width: 100%;
+            height: 30%;
+            .background-profile {
+                width: 100%;
+                height: auto;
+                position: relative;
+                top: 0;
+            }
+            button {
+                width: 53px;
+                height: 25px;
+                border-radius: 30px;
+                background-color: white;
+                color: #AF6850;
+                border: 1px solid #AF6850;
+                outline: none;
+                position: absolute;
+                top:38px;
+                left: 80%;
+            }
+
+            .perfil {
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                top:128px;
+                // top: 110px;
+                // left: 35%;
+            }
+        }
+
+        .container-biography{
+            width: 100%;
+            height: auto;
+            // background: yellow;
+            margin-top: 20px;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .name{
+
+                font-size:20px;
+                color: #AF6850;
+                font-weight: bold;
+            }
+            .numbers{
+                display: flex;
+                flex-direction: row;
+                font-size:14px;
+                color: #AF6850;
+                margin-top: 5px;
+                p{
+                    margin-right: 5px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .options{
+            width: 100%;
+            height: auto;
+            // background: cornflowerblue;
+            margin-top: 30px;
+            .note{
+                margin-top: 12px;
+                font-size:14px;
+                font-weight: bold;
+                color: #AF6850;
+                margin-left: 30px;
+            }
+            .images-options{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .block{
+                    margin: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    p{
+                        margin-top: 12px;
+                        font-size:14px;
+                        color: #AF6850;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}
