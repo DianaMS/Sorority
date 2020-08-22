@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
-import '../assets/styles/components/Chat1.scss';
+import '../assets/styles/components/HeadBack.scss';
 
 const HeadBack = ({ link, nameHead }) => (
   <>

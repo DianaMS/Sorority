@@ -6,11 +6,14 @@ import ForComment from '../components/ForComment';
 import diana from '../assets/static/Diana.png';
 import mariana from '../assets/static/Mariana.png';
 import juana from '../assets/static/Mask-Perfil.png';
+import HeadBack from '../components/HeadBack';
+import '../assets/styles/components/HeadBack.scss';
 import '../assets/styles/components/Community.scss';
 
 const Community = () => (
   <>
     <div className='container-community'>
+      <HeadBack link='/' nameHead='Comunidad' />
       <section className='share-content'>
         <input type='text' className='text-profile' placeholder='Comparte tu experiencia' />
         <button type='button'>Publicar</button>

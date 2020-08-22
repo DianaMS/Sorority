@@ -1,6 +1,7 @@
 import React from 'react';
 import NavigatorNav from '../components/NavigatorNav';
 import Card from '../components/Card';
+import HeadBack from '../components/HeadBack';
 import '../assets/styles/components/Specialists.scss';
 
 const data = [
@@ -34,10 +35,13 @@ const data = [
 const Specialists = () => (
   <>
     <div className='specialists-container'>
-      <section>
-        { data.map((e, index) => {
-          return <Card key={index} user={e} />;
-        })}
+      <section className='section'>
+        <HeadBack link='/' nameHead='Especialistas' />
+        <section>
+          { data.map((e, index) => {
+            return <Card key={index} user={e} />;
+          })}
+        </section>
       </section>
       <NavigatorNav />
     </div>
