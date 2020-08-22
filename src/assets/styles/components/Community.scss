@@ -1,0 +1,49 @@
+.container-community{
+    width: 100%;
+    height: auto;
+    background: #F5E4E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+
+    .share-content {
+        width: 350px;
+        height: 130px;
+        background: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        .text-profile{
+            width: 300px;
+            height: 45px;
+            background: #FFF3F6;
+            border: none;
+            outline: none;
+            border-radius: 15px;
+            text-indent: 10px;
+            font-size: 17px;
+            &::-webkit-input-placeholder {
+                color: #FC94A4;
+            }
+        }
+        button{
+            width: 96px;
+            height: 30px;
+            background: #D9D0D2;
+            border-radius: 15px;
+            font-size: 17px;
+            color: white;
+            border: none;
+            outline: none;
+            position: relative;
+            right: -100px;
+        }
+
+    }
+}
