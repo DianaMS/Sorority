@@ -41,6 +41,16 @@ const Profile = () => (
           </div>
         </div>
         <label className='question' htmlFor='pregnant'>¿Estás embarazada?</label>
+        <div className='container_check'>
+          <div className='option1'>
+            <input className='check' type='Checkbox' />
+            <label className='labelcheck' htmlFor='children'>Si</label>
+          </div>
+          <div className='option1'>
+            <input className='check' type='Checkbox' id='notchildren' />
+            <label className='labelcheck' htmlFor='notchildren'>No</label>
+          </div>
+        </div>
         <label className='question' htmlFor='pregnant'>¿Cuál fue tu última menstruación?</label>
         <div className='custom-select'>
           <div className='selectores'>
@@ -55,6 +65,16 @@ const Profile = () => (
           </div>
         </div>
         <label className='question' htmlFor='pregnant'>¿Tienes hijos?</label>
+        <div className='container_check'>
+          <div className='option1'>
+            <input className='check' type='Checkbox' />
+            <label className='labelcheck' htmlFor='children'>Si</label>
+          </div>
+          <div className='option1'>
+            <input className='check' type='Checkbox' id='notchildren' />
+            <label className='labelcheck' htmlFor='notchildren'>No</label>
+          </div>
+        </div>
       </form>
     </div>
     <div className='contenedor_botones'>
