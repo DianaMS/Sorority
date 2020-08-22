@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../assets/styles/components/Chat.scss';
-import perfil from '../assets/static/Mask-Perfil.png';
-import doctora from '../assets/static/medica8.png';
+import '../../public/assets/styles/components/Chat.scss';
+import perfil from '../../public/assets/static/Mask-Perfil.png';
+import doctora from '../../public/assets/static/medica8.png';
 import HeadBack from '../components/HeadBack';
 import NavigatorNav from '../components/NavigatorNav';
 import Chat3 from '../components/Chat3';

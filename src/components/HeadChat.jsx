@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../assets/styles/components/HeadChat.scss';
+import '../../public/assets/styles/components/HeadChat.scss';
 
 const HeadChat = ({ nameHead, photoProfileHead }) => (
   <>

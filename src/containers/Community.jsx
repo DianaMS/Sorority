@@ -3,12 +3,12 @@ import Publication from '../components/Publication';
 import NavigatorNav from '../components/NavigatorNav';
 import Comments from '../components/Comments';
 import ForComment from '../components/ForComment';
-import diana from '../assets/static/Diana.png';
-import mariana from '../assets/static/Mariana.png';
-import juana from '../assets/static/Mask-Perfil.png';
+import diana from '../../public/assets/static/Diana.png';
+import mariana from '../../public/assets/static/Mariana.png';
+import juana from '../../public/assets/static/Mask-Perfil.png';
 import HeadBack from '../components/HeadBack';
-import '../assets/styles/components/HeadBack.scss';
-import '../assets/styles/components/Community.scss';
+import '../../public/assets/styles/components/HeadBack.scss';
+import '../../public/assets/styles/components/Community.scss';
 
 const Community = () => (
   <>

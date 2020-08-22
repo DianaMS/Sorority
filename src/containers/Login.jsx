@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 
-import '../assets/styles/components/Signup.scss';
+import '../../public/assets/styles/components/Signup.scss';
 
 import ButtonRegister from '../components/ButtonRegister';
-import '../assets/styles/components/Login.scss';
+import '../../public/assets/styles/components/Login.scss';
 
 const Login = () => (
   <>
