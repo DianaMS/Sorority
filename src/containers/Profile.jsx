@@ -51,7 +51,6 @@ const Profile = () => (
             <label className='labelcheck' htmlFor='notchildren'>No</label>
           </div>
         </div>
-
         <label className='question' htmlFor='pregnant'>¿Cuál fue tu última menstruación?</label>
         <div className='custom-select'>
           <div className='selectores'>
